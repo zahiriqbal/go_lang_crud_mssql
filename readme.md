@@ -6,7 +6,7 @@
 
 5. sqlcmd -S 127.0.0.1 -U sa -P your_password -Q "CREATE DATABASE goblog;"
 
-go run connect.go
+6 .go run connect.go
 
 You'll see this below if successful:
 
@@ -18,8 +18,8 @@ Microsoft SQL Server 2017 (CTP2.1) - 14.0.600.250 (X64)
 		
 		
 		
-6. sqlcmd -S 127.0.0.1 -U sa -P your_password -d goblog -i ./CreateTestData.sql		
+7. sqlcmd -S 127.0.0.1 -U sa -P your_password -d goblog -i ./CreateTestData.sql		
 
-This repo runs without any login so you can repeat step 5 and 6 without '-U sa -P your_password'
+This repo runs without any login so you can repeat step 5 and 7 without '-U sa -P your_password'
 
-7. go run main.go
+8. go run main.go
